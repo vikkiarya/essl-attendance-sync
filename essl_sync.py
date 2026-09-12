@@ -31,12 +31,10 @@ TO_DATE = datetime.now().strftime("%Y-%m-%d 23:59:59")
 # ============================================================
 
 GOOGLE_URL = (
-    GOOGLE_URL = (
     "https://script.google.com/macros/s/"
     "AKfycbysK2SzNDquxuzQG3guCRc7EF20Zts1b7WVQJ-Sag_gKSBFbogwqtP0s3ElAUgoT7aF"
     "/exec"
 )
-
 SECRET_TOKEN = "ESSL-2026-TEST-12345"
 
 
