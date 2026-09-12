@@ -31,8 +31,9 @@ TO_DATE = datetime.now().strftime("%Y-%m-%d 23:59:59")
 # ============================================================
 
 GOOGLE_URL = (
+    GOOGLE_URL = (
     "https://script.google.com/macros/s/"
-    "AKfycbybslHgvySJ7ZmQ55GHlyQTHE5T9SgUtjqc4b8pp0kO47RI-fzQdkh6xUbchg6-JQel"
+    "AKfycbysK2SzNDquxuzQG3guCRc7EF20Zts1b7WVQJ-Sag_gKSBFbogwqtP0s3ElAUgoT7aF"
     "/exec"
 )
 
