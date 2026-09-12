@@ -11,8 +11,9 @@ from xml.sax.saxutils import escape
 ESSL_URL = "http://157.20.196.180:8192/iclock/WebAPIService.asmx"
 
 API_USER = "api"
-API_PASSWORD = "xxxxx"   # APNA ACTUAL API PASSWORD
+import os
 
+API_PASSWORD = os.environ.get("ESSL_PASSWORD", "")
 DEVICES = [
     "NCD8250201389",
     "NCD8235300629"
